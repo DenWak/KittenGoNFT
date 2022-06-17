@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="120dp"
+            android:layout_height="90dp"
+            android:padding="4dp" />
+
+        <TextView
+            android:id="@+id/textViewName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/imageView"
+            android:text="Cat Name" />
+
+        <TextView
+            android:id="@+id/textViewPrice"
+            android:layout_width="145dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewName"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/imageView"
+            android:text="Price" />
+
+        <TextView
+            android:layout_width="95dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewName"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="35dp"
+            android:layout_toRightOf="@id/textViewPrice"
+            android:text="USD" />
+
+        <TextView
+            android:id="@+id/textViewPriceBtc"
+            android:layout_width="145dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewPrice"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/imageView"
+            android:text="Price BTC" />
+
+        <TextView
+            android:layout_width="95dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewPrice"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginRight="35dp"
+            android:layout_toRightOf="@id/textViewPriceBtc"
+            android:text="BTC" />
+
+        <TextView
+            android:id="@+id/textViewPriceEth"
+            android:layout_width="146dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewPriceBtc"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/imageView"
+            android:text="Price ETH" />
+
+        <TextView
+            android:layout_width="95dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewPriceBtc"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="35dp"
+            android:layout_toRightOf="@id/textViewPriceEth"
+            android:text="ETH" />
+
+    </RelativeLayout>
+
+</LinearLayout>

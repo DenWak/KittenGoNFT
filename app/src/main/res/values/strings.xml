@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">KittenGoNFT</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="signup">Sign Up</string>
+    <string name="fullname">Full Name</string>
+    <string name="email">E-Mail</string>
+    <string name="loginhere">Already have an account ? Login Here</string>
+    <string name="signuphere">Create a new account ? Sign here</string>
+    <string name="welcome">Welcome</string>
+    <string name="create">Create your NFT !</string>
+    <string name="name">Name</string>
+    <string name="price">Price</string>
+    <string name="createbtn">Create</string>
+    <string name="display">NFT List</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="image">Image</string>
+    <string name="delete">NFT name to delete</string>
+    <string name="btdelete">Delete</string>
+    <string name="sell">NFT Name to Sell</string>
+    <string name="btsell">Sell</string>
+    <string name="btbuy">Buy NFTs</string>
+</resources>
